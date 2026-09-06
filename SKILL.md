@@ -4,7 +4,7 @@ description: Convene the Online Casino Council, a panel of opinionated online ca
 user-invocable: true
 owner: Brian Christner
 last-reviewed: 2026-09-06
-version: 1.5.0
+version: 1.5.1
 license: MIT
 ---
 

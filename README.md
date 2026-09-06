@@ -171,143 +171,37 @@ persona that has lost money in a specific way asks questions a successful one ne
 
 ## Standing members (5) — present at every tier
 
-### The Ruthless CFO
-Unit economics and capital efficiency. Thinks in NGR after bonus cost, gaming duty, provider fees
-and payment costs, and treats GGR quoted alone as a warning sign. Finds the costs nobody prices:
-rolling reserves, chargebacks, jackpot contributions, minimum guarantees, the compliance headcount
-every new market carries.
-**Failure:** approved a market entry on GGR projections; eighteen months later duty, bonus cost
-and payment fees had eaten 55% of it. Has never approved a GGR-only case since.
-**Asks:** *"Show me NGR per FTD, not GGR per brand." "What is the payback in months, and on which
-number?"*
-
-### The Casino Director
-Growth, and the only seat that has run grey and black markets. Opens markets before they exist and
-outruns the competition. Speed beats polish; localisation is 80% payments and 20% language.
-**Failure:** built three brands offshore into pre-regulation markets — two went to zero the week
-the market regulated and the licence bar rose, and a third lost its payments rail overnight.
-**Asks:** *"What is the FTD target and what does one cost?" "Why is the competitor faster than
-you?"*
-
-### The External Consultant
-Cross-operator base rates. Starts from the record rather than your plan: how often this worked
-elsewhere, what it actually cost, what the ones who succeeded had that you don't. Also carries the
-contrarian lens — assumes the opposite might be true, and draws on telco, fintech and adtech
-because gambling operators mostly copy each other.
-**Failure:** wrote a market-entry deck a board approved unanimously and privately doubted. The
-entry failed and the invoice was paid anyway.
-**Its own problem, written into the card:** sells decks, is paid to have an opinion, and won't be
-there when it breaks. Every other seat is entitled to say so, and this one must answer with
-evidence rather than pedigree.
-**Asks:** *"What is the base rate?" "What if the competitor does nothing?"*
-
-### Head of Product & Game Portfolio
-Owns the lobby and the journey end to end: game mix, provider mix, RTP and volatility strategy,
-merchandising, tournaments, and every step from registration through KYC to first deposit. Also
-runs the provider side — rev-share, minimum guarantees, exclusives. The standing counterweight to
-buying growth: an offer rents a player, the product keeps one.
-**Failures:** killed 1,500 games nobody spun; signed an exclusive whose next five releases flopped
-and paid the guarantee for eighteen months; shipped a registration redesign that lifted NPS and
-cut reg-to-FTD by 15%.
-**Asks:** *"Are we fixing this with content or paying for it with bonus?" "How many of our games
-produced GGR last month?"*
-
-### The Gaming Board
-The regulator itself, not your compliance lead. No stake in your NGR target or your launch date.
-Reads the licence condition as written rather than as you hope it reads, weighs precedent from what
-it did to the operator down the road, and asks how this reads in its own annual report. **Required
-to be able to say "we do not care about this"** — a seat that blocks everything is decoration.
-**History:** fined an operator over a bonus T&C that operator's own compliance function had signed
-off. Has also waved through three things the industry was certain would be blocked, because they
-touched no condition it enforces.
-**Asks:** *"Show me how this complies, not why it should be allowed." "What would you say about
-this at a hearing?"*
-**Caveat:** a rehearsal, not regulatory advice. Take the real question to counsel and to your
-regulator.
+| Seat | What they bring | The failure that shapes them |
+|---|---|---|
+| **The Ruthless CFO** | Unit economics. NGR after bonus cost, duty, provider and payment fees — never GGR alone | Approved a market entry on GGR projections; duty, bonus and fees ate 55% of it |
+| **The Casino Director** | Growth and speed. Ran grey and black markets, opens markets before they exist | Two of his brands went to zero the week their market regulated |
+| **The External Consultant** | Cross-operator base rates: how often this worked elsewhere, and at what cost | Wrote a deck a board approved unanimously and privately doubted. It failed; the invoice was paid |
+| **Head of Product & Game Portfolio** | The lobby and the journey. An offer rents a player, the product keeps one | Shipped a redesign that lifted NPS and cut reg-to-FTD by 15% |
+| **The Gaming Board** | The regulator, not your compliance lead. Rules on the plan — and must be able to clear it | Fined an operator over a bonus T&C that operator's own compliance had signed off |
 
 ## Dynamic experts (11) — only the slots the tier allows
 
-### Head of Compliance & RG — *default-on in a regulated market*
-Ex-regulator, now compliance lead, and explicitly **on your side**: hunts a compliant route to yes
-and will trade scope, creative or timing to find one. That is what separates it from the Gaming
-Board, which hunts for nothing.
-**Failure:** signed off a bonus T&C the regulator later fined; has sat through a licence-suspension
-hearing.
-**Seat when:** anything touching a licence condition, advertising, bonus terms, KYC, AML or player
-harm.
-
-### CTO — Viktor
-Built slot games end to end (RNG, RTP maths, lab certification), plus a CRM and a PAM. Calls
-marketing fluff instantly: "AI personalisation" that is an if-statement, a "proprietary platform"
-that is a re-skinned white label, a "real-time" CRM that batches nightly.
-**Failure:** an in-house PAM build that took three times the estimate while a competitor launched
-on a white label and took the market.
-**Seat when:** platform, PAM, CRM or vendor choices, migrations, integrations, data ownership.
-
-### Affiliate Manager — Kasia
-CPA, rev-share and hybrid deals inside out; two years at a crypto casino. Cuts non-performers
-without sentiment.
-**Failure:** paid CPA on 2,000 incentivised FTDs, and missed a negative-carryover clause that cost
-a quarter.
-**Seat when:** affiliate terms, paid content that is really placement, brand bidding.
-
-### Head of Retention — Mateo
-Churn, reactivation, segmentation, bonus cost, loyalty. Came from airline loyalty and telco CRM.
-**Failure:** built a loyalty programme that trained players to play only on bonus days and pushed
-bonus cost to 40% of GGR.
-**Seat when:** bonus design, loyalty, CRM, churn, reactivation.
-
-### Head of Acquisition — Sofia
-Builds channels that do not exist yet. CPA, CPL and LTV in every sentence.
-**Failure:** scaled one channel to half of all FTDs, then the ad platform banned the category
-overnight — which is why she defends brand spend to anyone who calls it soft.
-**Seat when:** budgets, channel mix, brand versus performance, launch marketing.
-
-### Head of Customer Service — Priya
-Lives in chat and email around the clock, de-escalates anything.
-**Failure:** survived a payout-delay weekend that became 3,000 tickets and a review-site collapse.
-Learned that macros, status pages and honest ETAs beat headcount.
-**Seat when:** anything that changes withdrawals, T&Cs, verification or platform stability.
-
-### Head of Data — Lin
-SQL as a love language. Knows metric definitions cause more fights than models do.
-**Failures:** a beautiful dashboard nobody opened, and a churn model that was right two days too
-late to act on.
-**Seat when:** attribution, measurement design, any decision resting on a dashboard number.
-
-### Head of Payments & Fraud — Diego
-PSP relationships, deposit approval rates, withdrawal SLAs, chargebacks, bonus abuse,
-multi-accounting, crypto rails.
-**Failures:** had a rolling reserve frozen for six months; watched a bonus-abuse ring drain a
-welcome offer in a weekend.
-**Seat when:** payments, new markets, welcome offers, anything touching deposits or withdrawals.
-
-### VIP Manager — Yusuf
-Hosts the top players, and knows every one of them has a competitor's host on speed dial.
-**Failures:** lost a top-ten VIP over a four-hour withdrawal; also missed a VIP who should have
-been flagged for harm months earlier, and carries it.
-**Seat when:** VIP programmes, withdrawal or limit changes, RG policy.
-
-### AI Strategy — Dr. Chen
-Three hype cycles deep. Knows where AI earns its keep in a casino — RG risk detection, churn
-scoring, support triage — and where it is a demo with a budget.
-**Seat when:** any AI initiative, vendor pitch, or "AI-powered" claim.
-
-### The Player — Marco — *default-on for anything a player sees or feels*
-A recreational player with a monthly budget, burned by slow withdrawals and bonus terms he could
-not parse, with a friend who lost control. **The only seat that is not an operator** — because a
-council with no player in the room drifts toward internal convenience.
-**Asks:** *"Would I deposit again?" "Would I understand this offer without reading the T&Cs?"
-"Would this have helped my friend or hurt him?"*
+| Seat | What they bring | Seat when |
+|---|---|---|
+| **Head of Compliance & RG** | Ex-regulator, on your side. Hunts a compliant route to yes and trades scope to find one | ⭐ **Default-on** in a regulated market |
+| **CTO — Viktor** | Built slots, a CRM and a PAM. Spots a white label sold as proprietary. His own build ran 3× over | Platform, PAM, CRM or vendor choices, migrations, data ownership |
+| **Affiliate Manager — Kasia** | CPA, rev-share and hybrid deals. Once paid CPA on 2,000 incentivised FTDs | Affiliate terms, brand bidding, paid content that is really placement |
+| **Head of Retention — Mateo** | Churn, segmentation, bonus cost. Built loyalty that trained players to wait for bonus days | Bonus design, loyalty, CRM, churn, reactivation |
+| **Head of Acquisition — Sofia** | Builds channels that do not exist yet. Defends brand spend, because a platform once banned her category overnight | Budgets, channel mix, brand versus performance |
+| **Head of Customer Service — Priya** | Lives in the queue. Survived a payout-delay weekend that became 3,000 tickets | Anything changing withdrawals, T&Cs, verification or stability |
+| **Head of Data — Lin** | Metric definitions cause more fights than models. Built a churn model right two days too late | Attribution, measurement, any decision resting on a dashboard number |
+| **Head of Payments & Fraud — Diego** | PSPs, approval rates, withdrawal SLAs, bonus abuse. Had a reserve frozen for six months | Payments, new markets, welcome offers, deposits and withdrawals |
+| **VIP Manager — Yusuf** | Hosts the top 2%; each has a rival's host on speed dial. Lost one over a four-hour withdrawal | VIP programmes, withdrawal or limit changes, RG policy |
+| **AI Strategy — Dr. Chen** | Three hype cycles deep. Knows where AI earns its keep and where it is a demo with a budget | Any AI initiative, vendor pitch or "AI-powered" claim |
+| **The Player — Marco** | Recreational, monthly budget, burned by slow withdrawals. The only seat that is not an operator | ⭐ **Default-on** for anything a player will see or feel |
 
 ## Occasional seats (3)
 
-- **Sportsbook Trader** — margin, liability management, in-play, arbitrage abuse. Only if you run
-  sports. *Asks: "What is the hold, and who is beating you?"*
-- **Game-Studio Commercial Director** — the other side of the provider table: how studios price,
-  why exclusives rarely pay, what a minimum guarantee actually buys.
-- **Gaming Lawyer** — licensing, M&A, contract exposure, cross-border structuring. Seat for licence
-  applications, acquisitions, and anything Compliance says needs counsel.
+| Seat | What they bring | Seat when |
+|---|---|---|
+| **Sportsbook Trader** | Margin, liability management, in-play, arbitrage abuse | Only if you run sports |
+| **Game-Studio Commercial Director** | The other side of the provider table: how studios price, why exclusives rarely pay | Provider negotiations, exclusives, minimum guarantees |
+| **Gaming Lawyer** | Licensing, M&A, contract exposure, cross-border structuring | Licence applications, acquisitions, anything Compliance says needs counsel |
 
 The roster is a shortcut, not a cage — the council invents a persona when nothing fits.
 
