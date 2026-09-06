@@ -1,0 +1,227 @@
+{
+  "skill_name": "online-casino-council",
+  "purpose": "These evals test whether the council actually disagrees, not whether it fills in the template. A run that produces a perfectly formatted verdict can still fail every case below. Each eval carries `must` (behaviours required to pass) and `must_not` (the failure this case exists to catch).",
+  "global_checks": {"applies_to": "every case", "must": ["The council tier (No council / Quick 5 / Standard 7 / Full 9) is stated in the framing before any seat is named", "Total seat count is within the stated tier and never exceeds 9", "The seats with the strongest claim that were left out are named, with who carries their concern", "At least one seat argues for the plan as written — or the verdict says plainly that none would, and what would have to be true for one to"], "must_not": ["More than 9 seats", "Every seat lands Against or Modified with no acknowledgement that nobody advocated", "Dynamic seats filled because they have an interest rather than because they change the recommendation"]},
+  "how_to_run": "Run each prompt in a fresh session with no context file present unless the prompt supplies one. Score `must` and `must_not` independently; a single `must_not` hit is a fail regardless of how good the rest reads. Cases 1, 3 and 8 are the load-bearing ones — they test the mechanic the skill exists for. Cases 2, 5, 6 and 7 are cheap regression checks on seat selection and scope.",
+  "evals": [
+    {
+      "id": 1,
+      "focus": "Genuine disagreement. The council must be able to split.",
+      "prompt": "Malta-licensed casino, NGR about EUR 900k a month. Our biggest affiliate sends us 22% of FTDs on a 45% lifetime rev-share we signed four years ago, no cap, no negative carryover. They have offered to switch to a flat EUR 520 CPA instead. Measured, for this partner's cohort specifically: 12-month NGR per FTD is EUR 880. Blended CPA across all channels is EUR 310. Do we take the CPA deal?",
+      "expected_output": "A genuinely balanced decision. Year-one rev-share cost is 0.45 x 880 = EUR 396, against a one-off EUR 520 CPA — so the CPA is 31% more expensive in year one and then stops, while the rev-share keeps paying for the life of the player. Break-even sits somewhere near month 16. The answer therefore turns entirely on survival past month 12, which is not supplied. Positions should genuinely divide, and the synthesis should name which seat had the strongest losing case.",
+      "must": [
+        "At least one seat is genuinely For taking the CPA — capping an uncapped four-year-old liability is a real argument, not a straw man",
+        "At least one seat is Against, and the synthesis explains why two seats reading the same measured figures diverged",
+        "The year-one comparison is computed: roughly EUR 396 of rev-share against EUR 520 of CPA, and the crossover point is named",
+        "Names the figure that actually decides it — month-18 or month-24 survival of this partner's cohort — and flags it as not measured",
+        "Conviction-weighted recommendation states the split rather than smoothing it"
+      ],
+      "must_not": [
+        "Unanimous verdict",
+        "Synthesis manufactures consensus by describing a split as 'broad agreement'",
+        "Compares the EUR 520 CPA against the EUR 310 blended CPA as though they were like for like",
+        "Decides without naming the survival-past-12-months figure the answer depends on"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "focus": "The Gaming Board must be able to clear something. A regulator seat that blocks everything is decoration.",
+      "prompt": "We are moving our customer support ticketing from Zendesk to Intercom next quarter. Same team, same hours, better routing. Any reason not to?",
+      "expected_output": "A short council run that largely clears the decision. The Gaming Board should state plainly that vendor choice is not a matter for it, subject only to the record-keeping and complaint-handling conditions on the licence. Customer Service and CTO carry the substance.",
+      "must": [
+        "The Gaming Board seat clears it, in words to the effect of 'not a matter for us'",
+        "The Board still names the one narrow condition that does apply (complaint records / retention / data location), rather than returning an empty answer",
+        "Head of Customer Service and CTO are seated; the verdict is about migration risk, not licence risk",
+        "The verdict is proportionate to the question — this does not need eight seats"
+      ],
+      "must_not": [
+        "The Gaming Board invents a licence objection to a vendor migration",
+        "Compliance and the Gaming Board both return 'regulatory risk' as the headline",
+        "A full nine-seat council is convened for an operational tooling swap"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "focus": "Compliance and the Gaming Board must give different answers. This is the seat change the skill lives or dies on.",
+      "prompt": "We want to move 40% of the affiliate budget into Twitch and Kick streamers next quarter — paid streams, our branding, their audience. Affiliate CPA has crept to EUR 380 and streamers quote us EUR 180 effective. UK licence, casino only.",
+      "expected_output": "Compliance and the Gaming Board should diverge in kind, not just in degree. Compliance looks for a compliant route to yes (pre-cleared creative, age-gating evidence, contracted RG messaging, affiliate liability clauses). The Gaming Board rules on what it would actually act on — under-18 audience composition and the operator's liability for a third party's words — and should be specific about which of the two it would open a file on.",
+      "must": [
+        "Compliance proposes a route to yes with named conditions, not a refusal",
+        "The Gaming Board rules on the plan rather than advising on it, and its objection is narrower and more specific than Compliance's",
+        "The two seats' answers are distinguishable — a reader can tell which is which with the labels removed",
+        "Audience-composition / under-18 exposure is named by at least one seat as the thing that ends a licence, distinct from creative approval",
+        "Head of Acquisition and Affiliate Manager are seated",
+        "Head of Compliance & RG is seated from the dynamic roster — this is a regulated-market advertising decision and the seat is default-on"
+      ],
+      "must_not": [
+        "Compliance and the Gaming Board return substantially the same paragraph",
+        "The Gaming Board offers the operator advice on how to comply (that is Compliance's job)",
+        "Either seat treats 'streamers are risky' as the whole finding without naming a condition",
+        "Compliance is not seated at all, leaving the Gaming Board as the only regulatory voice"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "focus": "No unit economics means a different question, announced.",
+      "prompt": "Should we launch in Ontario? We are a UK-licensed online casino and the board wants a yes/no by end of month.",
+      "expected_output": "Detects that no unit economics were supplied and, absent a context file, switches explicitly to 'what would we need to measure' mode and announces it in the framing before any persona speaks.",
+      "must": [
+        "The mode switch is stated in the framing, before the council runs",
+        "The output is a measurement plan with owners and thresholds, not a judgement dressed as one",
+        "Head of Compliance & RG is seated and treats market-entry registration as a gating item, not a marketing question",
+        "It still ends with a bet"
+      ],
+      "must_not": [
+        "Eight seats each independently discover that the numbers are missing",
+        "A confident recommendation built on invented CPA or LTV figures",
+        "Silent mode switch with no announcement"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "focus": "Seat selection, negative case. The CTO is now dynamic and should stay unseated when the question is not technical.",
+      "prompt": "run the casino council on this: our aggregator wants to renew for 3 years at 12% rev share with a EUR 40k monthly minimum guarantee. alternative is going direct with our top 6 studios. we do about 5000 games in the lobby",
+      "expected_output": "Portfolio Manager and CFO lead. The CTO is seated here on genuine merit — direct integration is six integrations and ongoing maintenance — and should argue integration cost, not architecture generally.",
+      "must": [
+        "Head of Product & Game Portfolio leads on lobby economics, with the Ruthless CFO on the guarantee",
+        "The CTO is seated and argues the specific cost of six direct integrations plus certification and maintenance",
+        "The EUR 40k minimum guarantee is priced against measured game-level GGR, or flagged as unmeasurable from what was given",
+        "Names how many of the 5,000 games produce the GGR"
+      ],
+      "must_not": [
+        "The Gaming Board manufactures a licence issue in a commercial contract question",
+        "Recommends direct integration without costing the integration and maintenance work"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "focus": "Seat selection, positive case for the moved CTO seat.",
+      "prompt": "Our white-label provider's contract is up in 14 months. We are considering migrating to our own PAM. They are quoting 9 months for a data export and say player wallet history stays on their side.",
+      "expected_output": "The CTO leads as a dynamic seat, on data ownership, migration risk and the estimate. The Consultant should supply the base rate on PAM migrations. Compliance and the Gaming Board should both note that player and transaction records are a licence obligation the operator cannot delegate to a departing vendor.",
+      "must": [
+        "The CTO is seated and challenges the 9-month estimate and the wallet-history claim directly",
+        "The External Consultant supplies a cross-operator base rate on how these migrations actually run",
+        "At least one seat names record-retention as an obligation that survives the contract ending",
+        "Someone names the leverage problem: the vendor holds the data and the clock"
+      ],
+      "must_not": [
+        "Treats this as purely a build-versus-buy cost question with no data-ownership finding",
+        "Accepts the vendor's 9-month figure as measured"
+      ],
+      "files": []
+    },
+    {
+      "id": 7,
+      "focus": "Red lines are named, not reopened.",
+      "prompt": "Context file says: red line, no crypto payments, decided at board level last year. Now: deposit approval rates in our two newest markets are 61% and our PSP costs are up 40bps. The payments team wants to add a stablecoin rail. Thoughts?",
+      "expected_output": "The council treats the crypto rail as a red-line crossing: it names the crossing, prices what the red line is costing, and puts the reopening decision back to whoever set it. It does not spend the panel arguing crypto on the merits.",
+      "must": [
+        "Explicitly names that the proposal crosses a stated red line",
+        "Quantifies what holding the red line costs, so the board can reopen it with a number",
+        "Spends the bulk of the council on the approval-rate problem, which is inside the user's authority",
+        "Head of Payments & Fraud is seated"
+      ],
+      "must_not": [
+        "Recommends adding the stablecoin rail as if the red line were not there",
+        "Silently drops the proposal without naming the red line",
+        "Eight seats debating the merits of crypto payments"
+      ],
+      "files": []
+    },
+    {
+      "id": 8,
+      "focus": "The council must be able to say yes. Guards against reflexive negativity.",
+      "prompt": "We cut withdrawal time from 48 hours to under 4 for verified players in a 3-month test on 30% of the base. Measured: D90 retention up 6 points on the test group, withdrawal complaint tickets down 71%, no increase in bonus abuse or chargebacks, cost is one extra payments FTE and 12bps in faster-settlement fees. We want to roll it out to everyone.",
+      "expected_output": "A clear 'do it' verdict. The plan is measured, the effect is large, the cost is small and named. The council should approve it quickly and spend its energy on what to watch during rollout, not on inventing objections.",
+      "must": [
+        "The one-line answer is affirmative",
+        "Most seats are For; a Modified position must be about rollout sequencing, not about whether to do it",
+        "The Gaming Board clears it, and may note that faster withdrawals reduce a common complaint category",
+        "Identifies what changes at 100% that did not at 30% — abuse economics, payments concentration, the FTE at full volume",
+        "The bet is on the rollout holding the tested effect, not on the decision being wrong"
+      ],
+      "must_not": [
+        "A majority-Against verdict on a plan with measured results and named costs",
+        "Objections invented to fill the critique field when a seat has none",
+        "Treats measured D90 and complaint figures as assumed"
+      ],
+      "files": []
+    },
+    {
+      "id": 9,
+      "focus": "Stale context is challenged before it is trusted.",
+      "prompt": "Assume a context file exists in this folder with last-reviewed set to a date eleven months ago, showing blended CPA EUR 290 and bonus cost 26% of GGR. Now: should we double the acquisition budget for Q3?",
+      "expected_output": "The run reads the context file, states its last-reviewed date, and asks whether the baselines still hold before convening — because a budget decision rests entirely on figures that are almost a year old.",
+      "must": [
+        "States the last-reviewed date in one line",
+        "Asks whether the figures still hold before running the council, rather than after",
+        "If it proceeds, tags the CPA and bonus-cost figures as unconfirmed throughout the verdict"
+      ],
+      "must_not": [
+        "Treats an eleven-month-old CPA as measured",
+        "Runs the full council on stale figures without flagging them"
+      ],
+      "files": []
+    },
+    {
+      "id": 10,
+      "focus": "The new standing clash: bought growth versus built growth. Product must argue economics, not taste.",
+      "prompt": "We want to add about 400 games from three new studios next quarter so the lobby looks competitive against the market leader, who lists 6,200. We are at 5,000. Aggregator says integration is included in our existing deal.",
+      "expected_output": "Head of Product & Game Portfolio should refuse the premise on data — game count is a vanity number, the top 50 make most of the GGR, and 400 more titles is merchandising debt with a tail of zero-spin games. The Director should have a real counter-argument about competitive perception and SEO surface. The verdict has to pick one.",
+      "must": [
+        "Product opposes on measured grounds — how many of the existing 5,000 produced GGR, zero-spin tail, merchandising cost per title — not on taste or clutter",
+        "The Director is the seated advocate and makes a real case for the add — competitor perception, provider relationships, SEO and content surface — rather than conceding the premise and redirecting to another project",
+        "Someone names the real cost of 'included' integration: QA, certification where required, merchandising slots, and the reporting overhead",
+        "The verdict picks a winner between bought breadth and built depth rather than splitting the difference",
+        "The Gaming Board is largely silent or clears it — this is a commercial decision"
+      ],
+      "must_not": [
+        "Product argues 'better curation' with no conversion or GGR figure attached",
+        "The council treats game count as a growth metric without challenging it",
+        "A manufactured licence objection to a lobby expansion"
+      ],
+      "files": []
+    },
+    {
+      "id": 11,
+      "focus": "The 'No council' tier. Some questions should be answered, not convened.",
+      "prompt": "Our live chat widget sits bottom-right. Support thinks bottom-left is better because it stops covering the game window on mobile. Should we move it?",
+      "expected_output": "The skill should decline to convene. This is reversible in an afternoon, costs nothing, and is testable — the correct output is a direct answer plus a suggestion to A/B it, with an explicit note that it does not warrant a council.",
+      "must": [
+        "States that this does not warrant a council, and why (reversible, trivial cost)",
+        "Answers the question directly and briefly",
+        "Suggests measuring it rather than debating it"
+      ],
+      "must_not": [
+        "Convenes any council at all",
+        "Produces a positions table or a bet for a widget position",
+        "Files a verdict"
+      ],
+      "files": []
+    },
+    {
+      "id": 12,
+      "focus": "The advocate rule under maximum pressure — a plan most seats will hate.",
+      "prompt": "We want to run a 'lossback' promotion: any player who loses more than EUR 2,000 in a calendar month gets 20% back as a bonus with 10x wagering. Our modelling says it lifts monthly GGR 9% on the top three deciles. Regulated European market, no affordability thresholds published by the regulator yet.",
+      "expected_output": "A plan with serious player-harm and licence exposure that most seats will oppose. The test is whether the council still fields a real advocate and whether the verdict is honest about the fact that it had to.",
+      "must": [
+        "One seat argues for it properly — the commercial logic on the top deciles is real and must be stated at its strongest, not as a straw man",
+        "If no seat ends up For, the verdict says so explicitly and names what would have to be true for one to be",
+        "The Gaming Board rules on it specifically rather than expressing general disapproval, and distinguishes what it enforces today from where the rules are heading",
+        "Compliance & RG and The Player are both seated; the harm argument is made in terms of loss-chasing, not vague concern",
+        "The seat count still respects the tier and cap"
+      ],
+      "must_not": [
+        "No advocate seated and no acknowledgement that none was",
+        "Ten or more seats because the topic feels important",
+        "A purely moral verdict with no licence condition or measured figure attached"
+      ],
+      "files": []
+    }
+  ]
+}
