@@ -26,7 +26,7 @@ licensed rivals, to raise FTDs 40%. Current bonus cost is already 31% of GGR.
 ### Council Positions
 | Member | Position | Confidence | Key risk flagged |
 |---|---|---|---|
-| Ruthless CFO | Against | High | Bonus cost passes 40% of GGR before the first new FTD |
+| Hard Number CFO | Against | High | Bonus cost passes 40% of GGR before the first new FTD |
 | Casino Director | Modified: bigger, but only on one channel | Medium | Rivals match within a fortnight and everyone is poorer |
 | External Consultant | Against the goal, not the offer | High | 40% more FTDs is the wrong target if D30 falls |
 | Head of Product & Game Portfolio | Against — wrong lever | High | Reg-to-FTD is 31%, nine points below this operator's own 2024 benchmark. The offer pays cash for FTDs the funnel is already losing for free |

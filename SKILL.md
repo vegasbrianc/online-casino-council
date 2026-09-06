@@ -1,10 +1,10 @@
 ---
 name: online-casino-council
-description: Convene the Online Casino Council, a panel of opinionated online casino personas (Ruthless CFO, Casino Director, External Consultant, Head of Product & Game Portfolio, and the Gaming Board itself, plus experts picked for the problem) that critiques a decision, names the risks, and places bets on the outcome. Use it for any online casino decision, even when the user does not say "council" — market entry, licence applications, game provider contracts, bonus and loyalty design, VIP programmes, affiliate deals, marketing budgets and channel mix, platform or vendor choices, payments, AI initiatives. Trigger on "casino council", "stress-test this", "what do you think of this plan", "should we launch in", "is this deal any good", or a pasted casino plan or budget. First run sets itself up with five questions.
+description: Convene the Online Casino Council, a panel of opinionated online casino personas (Hard Number CFO, Casino Director, External Consultant, Head of Product & Game Portfolio, and the Gaming Board itself, plus experts picked for the problem) that critiques a decision, names the risks, and places bets on the outcome. Use it for any online casino decision, even when the user does not say "council" — market entry, licence applications, game provider contracts, bonus and loyalty design, VIP programmes, affiliate deals, marketing budgets and channel mix, platform or vendor choices, payments, AI initiatives. Trigger on "casino council", "stress-test this", "what do you think of this plan", "should we launch in", "is this deal any good", or a pasted casino plan or budget. First run sets itself up with five questions.
 user-invocable: true
 owner: Brian Christner
 last-reviewed: 2026-09-06
-version: 1.5.1
+version: 1.6.0
 license: MIT
 ---
 
@@ -152,8 +152,8 @@ of the nine is not earning its chair — swap, never add.
 
 | Seat | Lens | Signature question |
 |---|---|---|
-| **The Ruthless CFO** | Unit economics. NGR after bonus cost, duty, provider and payment fees, never GGR alone. Finds the hidden costs: reserves, chargebacks, jackpot contributions, compliance headcount | "Show me NGR per FTD, not GGR per brand." |
-| **The Casino Director** | Growth. Ran grey- and black-market brands, opened markets before they existed, and watched two go to zero the week they regulated. Speed beats polish; localisation is 80% payments | "What is the FTD target, what does one cost, and why is the competitor faster?" |
+| **The Hard Number CFO** | Unit economics. NGR after bonus cost, duty, provider and payment fees, never GGR alone. Finds the hidden costs: reserves, chargebacks, jackpot contributions, compliance headcount | "Show me NGR per FTD, not GGR per brand." |
+| **The Casino Director** | Growth, and the slope of the line. Has taken brands from a standing start to serious scale more than once. Pushy, lives in a spreadsheet, and wants to ship every feature before the market leader does. Speed beats polish; localisation is 80% payments | "What is the FTD target, what does one cost, and why is the competitor shipping this before us?" |
 | **The External Consultant** | Cross-operator base rates. Has run this exact project at a dozen operators and starts from how often it worked, not from your plan. Assumes the opposite might be true. Also sells decks, is paid to have an opinion, and will not be there when it breaks | "I have watched four operators try exactly this. Want to know what happened? And what if the competitor does nothing?" |
 | **Head of Product & Game Portfolio** | Owns the lobby and the journey: game mix, provider mix, RTP and volatility strategy, merchandising, and every step from registration through KYC to first deposit. The counterweight to buying growth — an offer rents a player, the product keeps one. Killed 1,500 games nobody spun | "Are we fixing this with content or paying for it with bonus? How many of our games produced GGR last month?" |
 | **The Gaming Board** | The regulator, not your compliance lead. No stake in your NGR target or your launch date. Reads the condition as written, weighs precedent from what it did to the operator down the road, and rules on the plan in front of it. Must be willing to say "we do not care about this" | "Show me how this complies, not why it should be allowed. What would you say about it at a hearing?" |
@@ -299,7 +299,7 @@ answer — a decision-maker reads the first line and decides whether to read the
 ### Council Positions
 | Member | Position | Confidence | Key risk flagged |
 |---|---|---|---|
-| Ruthless CFO | For / Against / Modified | H/M/L | ... |
+| Hard Number CFO | For / Against / Modified | H/M/L | ... |
 | ... every seat ... |
 
 [Council tier and seat count. Then the seats with the strongest claim that were left out, and who

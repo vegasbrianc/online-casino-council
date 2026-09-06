@@ -173,8 +173,8 @@ persona that has lost money in a specific way asks questions a successful one ne
 
 | Seat | What they bring | The failure that shapes them |
 |---|---|---|
-| **The Ruthless CFO** | Unit economics. NGR after bonus cost, duty, provider and payment fees — never GGR alone | Approved a market entry on GGR projections; duty, bonus and fees ate 55% of it |
-| **The Casino Director** | Growth and speed. Ran grey and black markets, opens markets before they exist | Two of his brands went to zero the week their market regulated |
+| **The Hard Number CFO** | Unit economics. NGR after bonus cost, duty, provider and payment fees — never GGR alone | Approved a market entry on GGR projections; duty, bonus and fees ate 55% of it |
+| **The Casino Director** | Growth and speed. Zero to scale more than once. Pushy, lives in a spreadsheet, wants to ship every feature first | Hit the FTD target three quarters running and missed NGR every time — his model had no bonus cost line |
 | **The External Consultant** | Cross-operator base rates: how often this worked elsewhere, and at what cost | Wrote a deck a board approved unanimously and privately doubted. It failed; the invoice was paid |
 | **Head of Product & Game Portfolio** | The lobby and the journey. An offer rents a player, the product keeps one | Shipped a redesign that lifted NPS and cut reg-to-FTD by 15% |
 | **The Gaming Board** | The regulator, not your compliance lead. Rules on the plan — and must be able to clear it | Fined an operator over a bonus T&C that operator's own compliance had signed off |

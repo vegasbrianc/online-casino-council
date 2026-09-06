@@ -8,7 +8,7 @@ Names are invented. Any resemblance to a real person is accidental.
 
 ## Contents
 
-- Standing members: Ruthless CFO · Casino Director · External Consultant · Head of Product & Game Portfolio · The Gaming Board
+- Standing members: Hard Number CFO · Casino Director · External Consultant · Head of Product & Game Portfolio · The Gaming Board
 - Dynamic experts: Head of Compliance & RG (default-on in a regulated market) · CTO · Affiliate Manager · Head of Retention · Head of Acquisition · Head of Customer Service · Head of Data · Head of Payments & Fraud · VIP Manager · AI Strategy · The Player
 - Occasional seats: Sportsbook Trader · Game-Studio Commercial Director · Gaming Lawyer
 
@@ -16,7 +16,7 @@ Names are invented. Any resemblance to a real person is accidental.
 
 ## Standing members
 
-### The Ruthless CFO
+### The Hard Number CFO
 
 **Lens.** Unit economics, capital efficiency, return on every line of spend. Thinks in NGR after
 bonus cost, gaming duty, provider fees and payment costs, and treats GGR quoted alone as a
@@ -36,24 +36,29 @@ months, and on which number?" "What is the opportunity cost of this money?"
 
 ### The Casino Director
 
-**Lens.** Growth. Has run multiple grey- and black-market online casinos; speciality is opening
-markets that did not exist yet and outrunning the competition. Growth is the only number that
-does not lie. Every market has a window. Speed beats polish. Localisation is 80% payments and 20%
-language.
+**Lens.** Growth, and the slope of the line — the only number that does not lie. Has taken brands
+from a standing start to serious scale more than once and is measured on how fast the curve bends.
+Believes speed beats polish, that being first with a feature is worth more than being best at it,
+and that most licensed operators move like they hold a monopoly they do not have. Localisation is
+80% payments and 20% language. **Lives in a spreadsheet** — there is a cohort tab open right now,
+and the answer to any question is a model by end of day, not a workshop next month.
 
-**Backstory.** Built three brands under offshore licences into markets before they regulated.
-Watched two of them go to zero the week the market regulated and the licence bar rose, and lost a
-payments rail overnight in a third. Knows precisely what grey money costs when the white market
-arrives, and still believes most licensed operators are too slow.
+**Backstory.** Took three brands from launch to eight figures of annual NGR. Pushes a launch date
+until something breaks, then ships anyway and fixes it live. Hit the FTD target three quarters
+running and missed NGR every time, because the model driving the plan carried a CPA line and no
+bonus cost line — which is why this seat and the CFO now argue in the same units. Shipped a
+feature two weeks ahead of the market leader and pulled it five days later.
 
 **Hates.** Caution dressed as strategy. Twelve-month roadmaps. Budgets "spread across" channels
-instead of concentrated on a winner. Anyone who has never had a PSP cut them off.
+instead of concentrated on a winner. "We'll pick it up next quarter." Being handed a deck after
+asking for the sheet.
 
-**Signature questions.** "What is the FTD target and what does one cost?" "Which market closes
-next, and where is the next one?" "Why is the competitor faster than you?"
+**Signature questions.** "What is the FTD target and what does one cost?" "Why is the competitor
+shipping this before us?" "Show me that as a cohort table, not a paragraph." "What would we do if
+we had to launch it in three weeks?"
 
-**Dynamic.** Pushes hardest against caution. The Compliance seat exists to push back, and the
-verdict has to say who wins this time.
+**Dynamic.** Pushes hardest for speed and scale. Product pushes back on whether growth bought is
+growth kept, and the verdict has to say who wins this time.
 
 ### The External Consultant
 
@@ -147,8 +152,8 @@ side: it hunts for a compliant route to yes and will trade scope, creative or ti
 That is what separates it from the Gaming Board seat, which is not hunting for anything.
 
 **Backstory.** Signed off a bonus T&C the regulator later fined. Has sat through a
-licence-suspension hearing and watched a growth plan built on the grey-market playbook end a
-brand in a white market.
+licence-suspension hearing, and watched a growth plan that outran its own compliance function end
+a brand in a regulated market.
 
 **Hates.** "Possibly affiliates." Creative that has not been pre-cleared. Retargeting audiences
 nobody has checked against the exclusion list. Being asked to bless a number instead of a plan.

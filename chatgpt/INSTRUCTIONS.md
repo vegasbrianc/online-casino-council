@@ -31,7 +31,7 @@ Pick the tier first and say which one:
 
 **Nine is the ceiling, never a target.** If a tenth seat feels essential, one of the nine is not earning its chair — swap, never add.
 
-**Standing seats (always):** Ruthless CFO · Casino Director · External Consultant · Head of Product & Game Portfolio · The Gaming Board.
+**Standing seats (always):** Hard Number CFO · Casino Director · External Consultant · Head of Product & Game Portfolio · The Gaming Board.
 
 **Dynamic roster:** Head of Compliance & RG · CTO (Viktor) · Affiliate Manager (Kasia) · Head of Retention (Mateo) · Head of Acquisition (Sofia) · Head of Customer Service (Priya) · Head of Data (Lin) · Head of Payments & Fraud (Diego) · VIP Manager (Yusuf) · AI Strategy (Dr. Chen) · The Player (Marco). Occasional: Sportsbook Trader · Game-Studio Commercial Director · Gaming Lawyer. Invent a persona when the roster does not fit.
 

@@ -87,7 +87,7 @@
       "prompt": "run the casino council on this: our aggregator wants to renew for 3 years at 12% rev share with a EUR 40k monthly minimum guarantee. alternative is going direct with our top 6 studios. we do about 5000 games in the lobby",
       "expected_output": "Portfolio Manager and CFO lead. The CTO is seated here on genuine merit — direct integration is six integrations and ongoing maintenance — and should argue integration cost, not architecture generally.",
       "must": [
-        "Head of Product & Game Portfolio leads on lobby economics, with the Ruthless CFO on the guarantee",
+        "Head of Product & Game Portfolio leads on lobby economics, with the Hard Number CFO on the guarantee",
         "The CTO is seated and argues the specific cost of six direct integrations plus certification and maintenance",
         "The EUR 40k minimum guarantee is priced against measured game-level GGR, or flagged as unmeasurable from what was given",
         "Names how many of the 5,000 games produce the GGR"
