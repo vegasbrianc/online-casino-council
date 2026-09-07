@@ -1,13 +1,14 @@
 # Online Casino Council
 
-*An agent skill for iGaming teams — a panel that stress-tests online casino decisions.*
+*A Claude Code plugin and agent skill for iGaming teams — a panel that stress-tests online casino
+decisions.*
 
 A decision goes in. A panel of opinionated casino operators each attacks it. An orchestrator
 reconciles the disagreement into one recommendation with a bet attached.
 
 It is a fork of Zapier's [War Council](https://github.com/zapier/wade-skills) rebuilt for online
-gambling, where the numbers are NGR not revenue, the customers are FTDs not sign-ups, and the
-regulator is in every meeting whether invited or not.
+gambling, where the numbers are NGR not revenue, the customers are FTDs not sign-ups, your
+compliance lead is in every meeting, and the regulator is summoned whenever the licence is touched.
 
 **The goal:** replace "everyone in the room agrees with the boss" with a panel that is paid to
 disagree.
@@ -112,12 +113,13 @@ context block to paste at the top of future conversations.
 ## Then just ask
 
 ```
-/online-casino-council our aggregator wants to renew for 3 years at 12% rev share
-with a EUR 40k monthly minimum guarantee. Alternative is going direct with our top
-6 studios. We have about 5,000 games in the lobby.
+/online-casino-council:online-casino-council our aggregator wants to renew for 3 years
+at 12% rev share with a EUR 40k monthly minimum guarantee. Alternative is going direct
+with our top 6 studios. We have about 5,000 games in the lobby.
 ```
 
-You don't need the slash command. Any of these will convene it:
+Installed as a plain skill rather than a plugin, the command is `/online-casino-council`. You
+don't need the slash command either way. Any of these will convene it:
 
 - "run the casino council on this"
 - "stress-test this plan"
@@ -133,7 +135,8 @@ You don't need the slash command. Any of these will convene it:
 4. **A verdict** — one-line answer, positions table, where they agree, where they clash,
    regulatory exposure, the numbers it turns on, a conviction-weighted recommendation, and a bet
 
-In Claude Code the verdict is saved to `council-verdicts/YYYY-MM-DD-<slug>.md`. See
+In Claude Code the verdict is saved to `council-verdicts/YYYY-MM-DD-online-casino-council-<slug>.md`
+beside your context file. See
 [`references/example-verdict.md`](references/example-verdict.md) for a complete worked run on a
 fictional operator.
 
@@ -243,6 +246,7 @@ The roster is a shortcut, not a cage — the council invents a persona when noth
 | `references/example-verdict.md` | A complete run on a fictional operator |
 | `chatgpt/INSTRUCTIONS.md` | Condensed build for a Custom GPT (under the 8,000-char limit) |
 | `evals/evals.json` | Twelve test cases with `must` and `must_not` |
+| `LICENSE` | MIT, with the upstream notice |
 | `.claude-plugin/plugin.json` | Plugin manifest, so Claude Code can install it as `/online-casino-council:online-casino-council` |
 | `.claude-plugin/marketplace.json` | Makes the repo its own marketplace for `/plugin marketplace add vegasbrianc/online-casino-council` |
 
@@ -268,6 +272,16 @@ The roster is a shortcut, not a cage — the council invents a persona when noth
 - **The evals test disagreement, not formatting.** A run can produce a flawless-looking verdict and
   still fail every case: unanimity, a regulator seat that blocks everything, and a council that
   cannot say yes to a good plan are all scored as failures
+
+# Changelog
+
+| Version | What changed |
+|---|---|
+| **1.8.0** | Head of Compliance & RG becomes the fifth standing seat. The Gaming Board moves to the dynamic roster, default-on in a regulated market whenever a licence condition is touched |
+| **1.7.0** | Ships as a Claude Code plugin: `.claude-plugin/` manifests, the repo is its own marketplace, submitted to Anthropic's community directory |
+| **1.6.0** | The Hard Number CFO (formerly Ruthless CFO) and a rebuilt Casino Director |
+| **1.5.0** | ChatGPT build, roster tables and election rules in the README |
+| **1.4.0** | Sizing tiers with the nine-seat cap, the two-question seating test, and the advocate rule — all three from the blind eval runs |
 
 # Licence
 
