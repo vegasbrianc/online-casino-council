@@ -1,0 +1,22 @@
+{
+  "name": "online-casino-council",
+  "version": "1.7.0",
+  "description": "A panel of opinionated online casino personas — Hard Number CFO, Casino Director, External Consultant, Head of Product and the Gaming Board itself, plus experts elected per topic — that stress-tests an iGaming decision, names the risks and places bets on the outcome.",
+  "author": {
+    "name": "Brian Christner",
+    "url": "https://brianchristner.io"
+  },
+  "homepage": "https://github.com/vegasbrianc/online-casino-council",
+  "repository": "https://github.com/vegasbrianc/online-casino-council",
+  "license": "MIT",
+  "keywords": [
+    "igaming",
+    "online-casino",
+    "gambling",
+    "decision-making",
+    "war-council",
+    "personas",
+    "strategy",
+    "compliance"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "online-casino-council",
+  "description": "Brian Christner's Claude Code plugins for iGaming teams.",
+  "owner": {
+    "name": "Brian Christner",
+    "url": "https://brianchristner.io"
+  },
+  "plugins": [
+    {
+      "name": "online-casino-council",
+      "displayName": "Online Casino Council",
+      "description": "A panel of opinionated online casino personas that stress-tests an iGaming decision, names the risks and places bets on the outcome.",
+      "category": "productivity",
+      "tags": ["igaming", "online-casino", "gambling", "decision-making", "personas", "strategy"],
+      "author": {
+        "name": "Brian Christner",
+        "url": "https://brianchristner.io"
+      },
+      "homepage": "https://github.com/vegasbrianc/online-casino-council",
+      "repository": "https://github.com/vegasbrianc/online-casino-council",
+      "license": "MIT",
+      "source": "./"
+    }
+  ]
+}

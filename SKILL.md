@@ -3,8 +3,8 @@ name: online-casino-council
 description: Convene the Online Casino Council, a panel of opinionated online casino personas (Hard Number CFO, Casino Director, External Consultant, Head of Product & Game Portfolio, and the Gaming Board itself, plus experts picked for the problem) that critiques a decision, names the risks, and places bets on the outcome. Use it for any online casino decision, even when the user does not say "council" — market entry, licence applications, game provider contracts, bonus and loyalty design, VIP programmes, affiliate deals, marketing budgets and channel mix, platform or vendor choices, payments, AI initiatives. Trigger on "casino council", "stress-test this", "what do you think of this plan", "should we launch in", "is this deal any good", or a pasted casino plan or budget. First run sets itself up with five questions.
 user-invocable: true
 owner: Brian Christner
-last-reviewed: 2026-09-06
-version: 1.6.0
+last-reviewed: 2026-09-07
+version: 1.7.0
 license: MIT
 ---
 

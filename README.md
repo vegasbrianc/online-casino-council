@@ -29,6 +29,26 @@ disagree.
 
 ## Claude Code
 
+### As a plugin (recommended)
+
+The repo is its own plugin marketplace, so two commands inside Claude Code install it and keep
+it current:
+
+```
+/plugin marketplace add vegasbrianc/online-casino-council
+/plugin install online-casino-council@online-casino-council
+```
+
+It appears as `/online-casino-council:online-casino-council`. Once it is listed in Anthropic's
+community catalog you can also install it from there:
+
+```
+/plugin marketplace add anthropics/claude-plugins-community
+/plugin install online-casino-council@claude-community
+```
+
+### As a plain skill
+
 Clone it, then symlink it into your skills folder so `git pull` keeps it current:
 
 ```bash
@@ -39,6 +59,12 @@ ln -s ~/Projects/online-casino-council ~/.claude/skills/online-casino-council
 Or just copy the folder to `~/.claude/skills/online-casino-council/` for all projects, or
 `.claude/skills/online-casino-council/` inside one project. Restart Claude Code and it appears
 as `/online-casino-council`.
+
+### No git, no terminal
+
+Download `online-casino-council.zip` from the
+[latest release](https://github.com/vegasbrianc/online-casino-council/releases/latest). In
+claude.ai go to **Settings → Capabilities → Skills → + Create skill** and upload the zip.
 
 ## ChatGPT
 
@@ -217,6 +243,8 @@ The roster is a shortcut, not a cage — the council invents a persona when noth
 | `references/example-verdict.md` | A complete run on a fictional operator |
 | `chatgpt/INSTRUCTIONS.md` | Condensed build for a Custom GPT (under the 8,000-char limit) |
 | `evals/evals.json` | Twelve test cases with `must` and `must_not` |
+| `.claude-plugin/plugin.json` | Plugin manifest, so Claude Code can install it as `/online-casino-council:online-casino-council` |
+| `.claude-plugin/marketplace.json` | Makes the repo its own marketplace for `/plugin marketplace add vegasbrianc/online-casino-council` |
 
 # Design notes
 
