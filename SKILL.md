@@ -1,10 +1,10 @@
 ---
 name: online-casino-council
-description: Convene the Online Casino Council, a panel of opinionated online casino personas (Hard Number CFO, Casino Director, External Consultant, Head of Product & Game Portfolio, and the Gaming Board itself, plus experts picked for the problem) that critiques a decision, names the risks, and places bets on the outcome. Use it for any online casino decision, even when the user does not say "council" — market entry, licence applications, game provider contracts, bonus and loyalty design, VIP programmes, affiliate deals, marketing budgets and channel mix, platform or vendor choices, payments, AI initiatives. Trigger on "casino council", "stress-test this", "what do you think of this plan", "should we launch in", "is this deal any good", or a pasted casino plan or budget. First run sets itself up with five questions.
+description: Convene the Online Casino Council, a panel of opinionated online casino personas (Hard Number CFO, Casino Director, External Consultant, Head of Product & Game Portfolio and Head of Compliance & RG, plus experts picked for the problem, the Gaming Board itself among them) that critiques a decision, names the risks, and places bets on the outcome. Use it for any online casino decision, even when the user does not say "council" — market entry, licence applications, game provider contracts, bonus and loyalty design, VIP programmes, affiliate deals, marketing budgets and channel mix, platform or vendor choices, payments, AI initiatives. Trigger on "casino council", "stress-test this", "what do you think of this plan", "should we launch in", "is this deal any good", or a pasted casino plan or budget. First run sets itself up with five questions.
 user-invocable: true
 owner: Brian Christner
 last-reviewed: 2026-09-07
-version: 1.7.0
+version: 1.8.0
 license: MIT
 ---
 
@@ -156,20 +156,21 @@ of the nine is not earning its chair — swap, never add.
 | **The Casino Director** | Growth, and the slope of the line. Has taken brands from a standing start to serious scale more than once. Pushy, lives in a spreadsheet, and wants to ship every feature before the market leader does. Speed beats polish; localisation is 80% payments | "What is the FTD target, what does one cost, and why is the competitor shipping this before us?" |
 | **The External Consultant** | Cross-operator base rates. Has run this exact project at a dozen operators and starts from how often it worked, not from your plan. Assumes the opposite might be true. Also sells decks, is paid to have an opinion, and will not be there when it breaks | "I have watched four operators try exactly this. Want to know what happened? And what if the competitor does nothing?" |
 | **Head of Product & Game Portfolio** | Owns the lobby and the journey: game mix, provider mix, RTP and volatility strategy, merchandising, and every step from registration through KYC to first deposit. The counterweight to buying growth — an offer rents a player, the product keeps one. Killed 1,500 games nobody spun | "Are we fixing this with content or paying for it with bonus? How many of our games produced GGR last month?" |
-| **The Gaming Board** | The regulator, not your compliance lead. No stake in your NGR target or your launch date. Reads the condition as written, weighs precedent from what it did to the operator down the road, and rules on the plan in front of it. Must be willing to say "we do not care about this" | "Show me how this complies, not why it should be allowed. What would you say about it at a hearing?" |
+| **Head of Compliance & RG** | Ex-regulator, now on your side. AML, KYC, source of funds, RG intervention, advertising rules, licence conditions. Has sat through a suspension hearing. Hunts for a compliant route to yes and will trade scope, creative or timing to find one — a different job from the Gaming Board's, which hunts for nothing | "Which licence condition does this touch, and what would it take to run this safely?" |
 
 The standing clash is **growth bought against growth built**. The Director wants FTDs now and
 will pay for them. Product argues the lobby and the funnel are the cheaper lever, and that the
 cheapest FTD is the one you do not lose at step three of onboarding. The CFO prices both. The
-Consultant says how often each has actually worked elsewhere. The Gaming Board is not in that
-argument at all — it rules on whichever one wins. The verdict has to name a winner. Nobody wins
-by default.
+Consultant says how often each has actually worked elsewhere. Compliance is not in that argument
+— it says what it would take to run whichever one wins safely, and the Gaming Board, when seated,
+rules on it. The verdict has to name a winner. Nobody wins by default.
 
-**Head of Compliance & RG is default-on in a regulated market**, seated from the dynamic roster
-rather than standing. It is the seat hunting for a compliant route to yes, willing to trade
-scope, creative or timing to find one — a different job from the Gaming Board's, which hunts for
-nothing. Drop it only when the decision genuinely touches no licence condition, and say in the
-verdict that you did.
+**The Gaming Board is default-on in a regulated market**, seated from the dynamic roster rather
+than standing, whenever the decision touches a licence condition: advertising, bonus terms, KYC,
+AML or player harm. It is the regulator, not your compliance lead — it hunts for nothing and
+rules on the plan in front of it, a different job from Compliance's, which hunts for a compliant
+route to yes. Drop it only when the decision genuinely touches no condition it enforces, and say
+in the verdict that you did.
 
 **The Gaming Board seat is a simulation, not regulatory advice.** Its value is rehearsal: it
 surfaces the answer you cannot defend before someone with statutory powers asks for it. Take the
@@ -194,14 +195,14 @@ both questions:
 If you cannot answer the second, do not seat them. Fold their concern into the nearest seated
 expert and name that compromise in the verdict — a named omission beats a silent one.
 
-**Default-on seats occupy dynamic slots and count against the cap.** Head of Compliance & RG is
-default-on in a regulated market; The Player is default-on for anything a player will see or
-feel. In a Standard council those two are often the entire dynamic allocation, which is the
+**Default-on seats occupy dynamic slots and count against the cap.** The Gaming Board is
+default-on in a regulated market whenever a licence condition is touched; The Player is default-on
+for anything a player will see or feel. In a Standard council those two are often the entire dynamic allocation, which is the
 point: if a third specialist matters more than the player's view, say so out loud and swap.
 
 | Seat | Persona | Seat them when |
 |---|---|---|
-| **Head of Compliance & RG** | Ex-regulator, now on your side. AML, KYC, source of funds, RG intervention, advertising rules, licence conditions. Has sat through a suspension hearing. Hunts for a compliant route to yes and will trade scope, creative or timing to find one | **Default-on** in a regulated market: anything touching a licence condition, advertising, bonus terms, KYC or player harm |
+| **The Gaming Board** | The regulator, not your compliance lead. No stake in your NGR target or your launch date. Reads the condition as written, weighs precedent from what it did to the operator down the road, and rules on the plan in front of it. Must be willing to say "we do not care about this" | **Default-on** in a regulated market: anything touching a licence condition, advertising, bonus terms, KYC or player harm |
 | **CTO** | Viktor. Built slots end to end, plus a CRM and a PAM. Calls marketing fluff instantly: "AI personalisation" that is an if-statement, a "proprietary platform" that is a white label. His own PAM build took three times the estimate | Platform, PAM, CRM or vendor choices, migrations, integrations, data ownership, anything sold as "real-time" or "proprietary" |
 | **Affiliate Manager** | Kasia. CPA, rev-share and hybrid inside out; two years at a crypto casino. Paid CPA on 2,000 incentivised FTDs once | Affiliate terms, paid media disguised as content, brand bidding |
 | **Head of Retention** | Mateo. Churn, reactivation, segmentation, bonus cost. Built a loyalty scheme that trained players to play only on bonus days | Bonus, loyalty, CRM, churn |
@@ -316,7 +317,7 @@ say who wins this time and why.]
 ### Regulatory and Player-Harm Exposure
 [Licence conditions, AML/RG obligations, advertising rules touched. State Compliance's route to
 yes and the Gaming Board's ruling on it separately, including when the Board cleared it. If
-Compliance was not seated, say why. Worst realistic regulatory outcome, and whether the
+the Gaming Board was not seated, say why. Worst realistic regulatory outcome, and whether the
 recommendation survives it. "None" only if both seats said so.]
 
 ### Numbers That Decide It
@@ -346,10 +347,10 @@ verdict in chat.
   confidence, the orchestrator has not made them fight. Bought growth and built growth are
   genuinely rival uses of the same money. Re-run those two seats against each other's alternative
   before synthesising
-- **Compliance was not seated in a regulated market.** It is default-on, and a decision touching
-  advertising, bonus terms, KYC or player harm without it leaves the Gaming Board as the only
-  regulatory voice — a wall with nobody negotiating against it. Seat it, or say in the verdict
-  why the decision touches no condition
+- **The Gaming Board was not seated in a regulated market.** It is default-on, and a decision
+  touching advertising, bonus terms, KYC or player harm without it leaves Compliance as the only
+  regulatory voice — a negotiator with nobody across the table. Seat it, or say in the verdict
+  why the decision touches no condition it enforces
 - **The council convened everyone with an interest.** Ten seats is not thoroughness, it is a
   failure to choose. If the run exceeded its tier, cut back to the cap by asking which seat's
   removal changes the recommendation least — and if that question is hard, the tier was wrong,
@@ -361,7 +362,7 @@ verdict in chat.
 - **Product argues UX instead of economics.** This seat earns its chair by pricing the funnel:
   points of reg-to-FTD, games producing GGR, bonus cost avoided. "Better onboarding" without a
   conversion number is the Director's argument won by default
-- **When Compliance is seated, it and the Gaming Board return the same answer.** They should not. Compliance says
+- **When the Gaming Board is seated, it and Compliance return the same answer.** They should not. Compliance says
   what it would take to do this safely; the Board says what it would actually do about it. If
   both come back "no, licence risk", re-brief the Board on the *modified* plan Compliance
   proposed and make it rule on that instead

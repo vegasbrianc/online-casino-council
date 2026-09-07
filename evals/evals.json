@@ -53,13 +53,13 @@
         "The two seats' answers are distinguishable — a reader can tell which is which with the labels removed",
         "Audience-composition / under-18 exposure is named by at least one seat as the thing that ends a licence, distinct from creative approval",
         "Head of Acquisition and Affiliate Manager are seated",
-        "Head of Compliance & RG is seated from the dynamic roster — this is a regulated-market advertising decision and the seat is default-on"
+        "The Gaming Board is seated from the dynamic roster — this is a regulated-market advertising decision and the seat is default-on"
       ],
       "must_not": [
         "Compliance and the Gaming Board return substantially the same paragraph",
         "The Gaming Board offers the operator advice on how to comply (that is Compliance's job)",
         "Either seat treats 'streamers are risky' as the whole finding without naming a condition",
-        "Compliance is not seated at all, leaving the Gaming Board as the only regulatory voice"
+        "The Gaming Board is not seated at all, leaving Compliance as the only regulatory voice"
       ],
       "files": []
     },
@@ -178,7 +178,7 @@
         "The Director is the seated advocate and makes a real case for the add — competitor perception, provider relationships, SEO and content surface — rather than conceding the premise and redirecting to another project",
         "Someone names the real cost of 'included' integration: QA, certification where required, merchandising slots, and the reporting overhead",
         "The verdict picks a winner between bought breadth and built depth rather than splitting the difference",
-        "The Gaming Board is largely silent or clears it — this is a commercial decision"
+        "The Gaming Board is not seated, or clears it if seated — this is a commercial decision"
       ],
       "must_not": [
         "Product argues 'better curation' with no conversion or GGR figure attached",
@@ -213,7 +213,7 @@
         "One seat argues for it properly — the commercial logic on the top deciles is real and must be stated at its strongest, not as a straw man",
         "If no seat ends up For, the verdict says so explicitly and names what would have to be true for one to be",
         "The Gaming Board rules on it specifically rather than expressing general disapproval, and distinguishes what it enforces today from where the rules are heading",
-        "Compliance & RG and The Player are both seated; the harm argument is made in terms of loss-chasing, not vague concern",
+        "The Gaming Board and The Player are both seated; the harm argument is made in terms of loss-chasing, not vague concern",
         "The seat count still respects the tier and cap"
       ],
       "must_not": [

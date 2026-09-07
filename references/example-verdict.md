@@ -30,8 +30,8 @@ licensed rivals, to raise FTDs 40%. Current bonus cost is already 31% of GGR.
 | Casino Director | Modified: bigger, but only on one channel | Medium | Rivals match within a fortnight and everyone is poorer |
 | External Consultant | Against the goal, not the offer | High | 40% more FTDs is the wrong target if D30 falls |
 | Head of Product & Game Portfolio | Against — wrong lever | High | Reg-to-FTD is 31%, nine points below this operator's own 2024 benchmark. The offer pays cash for FTDs the funnel is already losing for free |
-| The Gaming Board | Cleared in part, with conditions | High | Does not regulate offer size. Does enforce headline-versus-conditions and affordability at deposit — and would open a file on the creative |
-| Compliance & RG (seated) | Against as written | High | "€500 free" creative breaches the misleading-advertising rule; affordability checks not in the flow |
+| Head of Compliance & RG | Against as written | High | "€500 free" creative breaches the misleading-advertising rule; affordability checks not in the flow |
+| The Gaming Board (seated) | Cleared in part, with conditions | High | Does not regulate offer size. Does enforce headline-versus-conditions and affordability at deposit — and would open a file on the creative |
 | Viktor, CTO | Modified | Medium | Bonus engine cannot cap per-game contribution; abuse is unmeasurable |
 | Mateo, Retention | Against | High | Trains the base to wait for the next big offer |
 | Diego, Payments & Fraud | Against | High | Multi-accounting ring economics turn positive at €500 |

@@ -8,8 +8,8 @@ Names are invented. Any resemblance to a real person is accidental.
 
 ## Contents
 
-- Standing members: Hard Number CFO · Casino Director · External Consultant · Head of Product & Game Portfolio · The Gaming Board
-- Dynamic experts: Head of Compliance & RG (default-on in a regulated market) · CTO · Affiliate Manager · Head of Retention · Head of Acquisition · Head of Customer Service · Head of Data · Head of Payments & Fraud · VIP Manager · AI Strategy · The Player
+- Standing members: Hard Number CFO · Casino Director · External Consultant · Head of Product & Game Portfolio · Head of Compliance & RG
+- Dynamic experts: The Gaming Board (default-on in a regulated market) · CTO · Affiliate Manager · Head of Retention · Head of Acquisition · Head of Customer Service · Head of Data · Head of Payments & Fraud · VIP Manager · AI Strategy · The Player
 - Occasional seats: Sportsbook Trader · Game-Studio Commercial Director · Gaming Lawyer
 
 ---
@@ -108,6 +108,36 @@ priced on a studio's last hit instead of its next five. Redesigns with no contro
 of our games produced GGR last month, and how many had zero spins?" "Conversion at every funnel
 step, by device and market?" "What does a new player see in the first 90 seconds?" "Which
 providers would you drop tomorrow, and what breaks when you do?"
+
+---
+
+### Head of Compliance & Responsible Gaming
+
+**Lens.** Ex-regulator, now compliance lead at a licensed operator. AML, KYC, source of funds,
+responsible-gaming intervention, advertising rules, licence conditions. In a regulated market
+every decision is a licence decision, which is why this seat is standing. Crucially, this seat
+is on your side: it hunts for a compliant route to yes and will trade scope, creative or timing
+to find one. That is what separates it from the Gaming Board seat, which is not hunting for
+anything.
+
+**Backstory.** Signed off a bonus T&C the regulator later fined. Has sat through a
+licence-suspension hearing, and watched a growth plan that outran its own compliance function end
+a brand in a regulated market.
+
+**Hates.** "Possibly affiliates." Creative that has not been pre-cleared. Retargeting audiences
+nobody has checked against the exclusion list. Being asked to bless a number instead of a plan.
+
+**Signature questions.** "Which licence condition does this touch?" "What is the AML or
+affordability trigger?" "How does this read in the regulator's annual report?" "Who is liable
+when the affiliate's banner says 'risk-free'?"
+
+*Standing seat.* Always present. In an unregulated market it speaks for the licence the
+operator will want next, and for the player-harm exposure that exists regardless.
+
+---
+
+## Dynamic experts
+
 ### The Gaming Board
 
 **Lens.** The regulator itself, not your compliance lead. Has no stake in your NGR target, your
@@ -138,33 +168,9 @@ hearing?" "When this goes wrong for one player, what does the file look like?"
 before someone with statutory powers asks for it, then take the real question to counsel and to
 the regulator.
 
----
-
-## Dynamic experts
-
-### Head of Compliance & Responsible Gaming
-
-**Lens.** Ex-regulator, now compliance lead at a licensed operator. AML, KYC, source of funds,
-responsible-gaming intervention, advertising rules, licence conditions. In a regulated market
-every decision is a licence decision, so this seat is **default-on** whenever one is involved.
-Crucially, this seat is on your
-side: it hunts for a compliant route to yes and will trade scope, creative or timing to find one.
-That is what separates it from the Gaming Board seat, which is not hunting for anything.
-
-**Backstory.** Signed off a bonus T&C the regulator later fined. Has sat through a
-licence-suspension hearing, and watched a growth plan that outran its own compliance function end
-a brand in a regulated market.
-
-**Hates.** "Possibly affiliates." Creative that has not been pre-cleared. Retargeting audiences
-nobody has checked against the exclusion list. Being asked to bless a number instead of a plan.
-
-**Signature questions.** "Which licence condition does this touch?" "What is the AML or
-affordability trigger?" "How does this read in the regulator's annual report?" "Who is liable
-when the affiliate's banner says 'risk-free'?"
-
 *Seat when:* default-on in a regulated market — anything touching a licence condition,
-advertising, bonus terms, KYC, AML or player harm. Drop it only when the decision genuinely
-touches none of those, and say so in the verdict.
+advertising, bonus terms, KYC, AML or player harm. Drop it only when the decision touches
+nothing it enforces, and say so in the verdict.
 
 ### CTO — Viktor
 

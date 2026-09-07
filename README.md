@@ -173,7 +173,7 @@ nearest seated expert and the verdict names that compromise. A named omission be
 
 Two seats are **default-on**, and they occupy dynamic slots like everyone else:
 
-- **Head of Compliance & RG** — in any regulated market
+- **The Gaming Board** — in any regulated market, whenever the decision touches a licence condition
 - **The Player** — for anything a player will see or feel
 
 So a Standard council touching a licence often has both slots already spoken for. That is the
@@ -203,13 +203,13 @@ persona that has lost money in a specific way asks questions a successful one ne
 | **The Casino Director** | Growth and speed. Zero to scale more than once. Pushy, lives in a spreadsheet, wants to ship every feature first |
 | **The External Consultant** | Cross-operator base rates: how often this worked elsewhere, and at what cost |
 | **Head of Product & Game Portfolio** | The lobby and the journey. An offer rents a player, the product keeps one |
-| **The Gaming Board** | The regulator, not your compliance lead. Rules on the plan — and must be able to clear it |
+| **Head of Compliance & RG** | Ex-regulator, on your side. Hunts a compliant route to yes and trades scope to find one |
 
 ## Dynamic experts (11) — only the slots the tier allows
 
 | Seat | What they bring | Seat when |
 |---|---|---|
-| **Head of Compliance & RG** | Ex-regulator, on your side. Hunts a compliant route to yes and trades scope to find one | ⭐ **Default-on** in a regulated market |
+| **The Gaming Board** | The regulator, not your compliance lead. Rules on the plan — and must be able to clear it | ⭐ **Default-on** in a regulated market when a licence condition is touched |
 | **CTO — Viktor** | Built slots, a CRM and a PAM. Spots a white label sold as proprietary. His own build ran 3× over | Platform, PAM, CRM or vendor choices, migrations, data ownership |
 | **Affiliate Manager — Kasia** | CPA, rev-share and hybrid deals. Once paid CPA on 2,000 incentivised FTDs | Affiliate terms, brand bidding, paid content that is really placement |
 | **Head of Retention — Mateo** | Churn, segmentation, bonus cost. Built loyalty that trained players to wait for bonus days | Bonus design, loyalty, CRM, churn, reactivation |
@@ -250,10 +250,11 @@ The roster is a shortcut, not a cage — the council invents a persona when noth
 
 - **Flawed personas critique better.** Every card includes a failure. The CFO who approved a
   GGR-only case asks the question the successful one never does
-- **The regulator gets its own chair.** Your compliance lead is looking for a compliant way to
-  yes; the Gaming Board is not looking for anything. It rules on the plan as written — and it is
-  required to be able to clear things, because a regulator seat that blocks everything teaches you
-  nothing. A rehearsal, not regulatory advice
+- **The regulator gets its own chair.** Your compliance lead sits at every council, looking for
+  a compliant way to yes; the Gaming Board is seated whenever a licence condition is touched, and
+  it is not looking for anything. It rules on the plan as written — and it is required to be able
+  to clear things, because a regulator seat that blocks everything teaches you nothing. A
+  rehearsal, not regulatory advice
 - **Bought growth versus built growth is the standing clash.** The Director wants to pay for FTDs;
   Product says fix the lobby and the funnel. Rival uses of the same money, and the verdict names a
   winner every time
