@@ -69,20 +69,23 @@ claude.ai go to **Settings → Capabilities → Skills → + Create skill** and 
 
 ## ChatGPT
 
-The `chatgpt/` folder has a condensed build that fits a Custom GPT's 8,000-character
-instructions field.
+The `chatgpt/` folder has a condensed build that fits inside a ChatGPT Project's instructions
+field. It runs as a **Project**, which any paid ChatGPT plan can create. Custom GPTs and the GPT
+Store are no longer open to personal accounts, so the council does not ship as a GPT.
 
-1. Go to **ChatGPT → Explore GPTs → Create**
-2. Open the **Configure** tab
-3. Name it `Online Casino Council`
-4. Paste the whole of [`chatgpt/INSTRUCTIONS.md`](chatgpt/INSTRUCTIONS.md) into **Instructions**
-5. Under **Knowledge**, upload `SKILL.md` and `references/personas.md` — the instructions tell
-   the GPT to read a seat's card before speaking as it, and these are those cards
-6. Turn **Code Interpreter** on if you want the verdict as a downloadable file
-7. Save
+1. In ChatGPT open **Projects → New project** and name it `Online Casino Council`
+2. Open the project's **Instructions** and paste the whole of
+   [`chatgpt/INSTRUCTIONS.md`](chatgpt/INSTRUCTIONS.md)
+3. Under **Files**, upload `SKILL.md` and `references/personas.md` — the instructions tell the
+   model to read a seat's card before speaking as it, and these are those cards
+4. Start a chat inside the project and ask your question
 
-No Custom GPT? Paste `chatgpt/INSTRUCTIONS.md` into a normal chat as your first message, then
-ask your question in the second. You lose the persona cards, so the seats are thinner, but the
+The first run asks the five setup questions and hands back a context block. Paste that block into
+the project instructions, under the council instructions, so every later chat starts with your
+operation already known.
+
+No Project? Paste `chatgpt/INSTRUCTIONS.md` into a normal chat as your first message, then ask
+your question in the second. You lose the persona cards, so the seats are thinner, but the
 process runs.
 
 ## Cursor, Claude Projects, or any other assistant
@@ -106,7 +109,7 @@ say they are estimates.
 
 In Claude Code this is saved to a context file beside your work
 (`.claude/online-casino-council-context.md`) and read on every later run. In ChatGPT you get a
-context block to paste at the top of future conversations.
+context block to paste into your project's instructions.
 
 **Your figures live in your context file, never in this repo.**
 
@@ -244,7 +247,7 @@ The roster is a shortcut, not a cage — the council invents a persona when noth
 | `references/personas.md` | Full persona cards, read before briefing a seat |
 | `assets/context-template.md` | The context file the setup writes |
 | `references/example-verdict.md` | A complete run on a fictional operator |
-| `chatgpt/INSTRUCTIONS.md` | Condensed build for a Custom GPT (under the 8,000-char limit) |
+| `chatgpt/INSTRUCTIONS.md` | Condensed build for a ChatGPT Project's instructions field (under the 8,000-char limit) |
 | `evals/evals.json` | Twelve test cases with `must` and `must_not` |
 | `LICENSE` | MIT, with the upstream notice |
 | `.claude-plugin/plugin.json` | Plugin manifest, so Claude Code can install it as `/online-casino-council:online-casino-council` |
